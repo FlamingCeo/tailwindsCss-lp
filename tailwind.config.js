@@ -7,11 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        '2xl': '15px'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        'suzi':{
+          200: '#F8C8DC',
+          300: '#FF5733'
+
+        }
+        
+      }
     },
   },
   plugins: [],
