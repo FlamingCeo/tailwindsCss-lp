@@ -27,11 +27,29 @@ export default function Home() {
         <p className = "text-sm truncate">Stormi is a dog. She is dark grey and has long legs. Her eyes are expressive and are able to let her humans know what she is thinking. Her tongue is long, pink, and wet. Her long legs allow her to sprint after other dogs, people or bunnies. She can be a good dog, but also very bad. Her tail wags when happy or excited and hides between her back legs when she is bad. Stormi is a dog I love.</p>
         <p className="text-xs" > A little note</p>
         <p className = "whitespace-nowrap">Stormi is a dog. She is dark grey and has long legs. Her eyes are expressive and are able to let her humans know what she is thinking. Her tongue is long, pink, and wet. Her long legs allow her to sprint after other dogs, people or bunnies. She can be a good dog, but also very bad. Her tail wags when happy or excited and hides between her back legs when she is bad. Stormi is a dog I love.</p>
-
         <p className='break-words'>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
         
       </div>
     </div>
+    </div>
+    <h1 className='text-xl border border-black m-1 text-center bg-c'> Using default "Grid" of 12</h1>
+    <div className=' text-white  grid p-4  gap-4 md:grid-cols-3  lg:grid-cols-4'> 
+      <div className ="p-6 rounded-lg bg-sky-500">
+        1
+      </div>
+      <div className ="p-6 rounded-lg bg-sky-500 col-span-3 col-start-3">2</div>
+
+      <div className ="p-6 rounded-lg bg-sky-500 col-span-2">3</div>
+
+      <div className ="p-6 rounded-lg bg-sky-500">4</div>
+
+      <div className ="p-6 rounded-lg bg-sky-500">5</div>
+
+      <div className ="p-6 rounded-lg bg-sky-500">6</div> 
+
+      <div className ="p-6 rounded-lg bg-sky-500">7</div>
+
+    
     </div>
 
 
